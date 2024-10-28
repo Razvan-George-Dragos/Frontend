@@ -1,0 +1,25 @@
+header {
+  background-color: rgb(55, 171, 140);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  height: 80px;
+  width: 100%;
+  max-width: 1260px; 
+  margin: 0 auto; /* Centers the header */
+  box-sizing: border-box; /* Includes padding within the width */
+}
+
+header h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.container {
+  background-color: rgb(166, 226, 208);
+  padding: 30px;
+  width: 100%;
+  max-width: 1200px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
