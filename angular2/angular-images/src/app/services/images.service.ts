@@ -8,11 +8,11 @@ import { Image } from '../models/image.model';
 })
 export class ImagesService {
 
-  private endpoint = 'https://picsum.photos/v2/list';
+  private url = 'https://picsum.photos/v2/list';
 
   constructor(private http: HttpClient) { }
 
   getImages(): Observable<Image[]> {
-    return this.http.get<Image[]>(this.endpoint);
+    return this.http.get<Image[]>(this.url);
   }
 }
